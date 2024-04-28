@@ -1,0 +1,184 @@
+[
+    {
+        "code": "0",
+        "colors": "uno",
+        "group": ["base"],
+        "base": 1,
+        "tags": ["R0", "B0", "G0", "Y0"],
+        "name": "0",
+        "icon": "textToIcon:0",
+        "probability": "8"
+    },
+    {
+        "code": "1",
+        "colors": "uno",
+        "group": ["base"],
+        "base": 1,
+        "tags": ["R1", "B1", "G1", "Y1"],
+        "name": "1",
+        "icon": "textToIcon:1",
+        "probability": "8"
+    },
+    {
+        "code": "2",
+        "colors": "uno",
+        "group": ["base"],
+        "base": 1,
+        "tags": ["R2", "B2", "G2", "Y2"],
+        "name": "2",
+        "icon": "textToIcon:2",
+        "probability": "8"
+    },
+    {
+        "code": "3",
+        "colors": "uno",
+        "group": ["base"],
+        "base": 1,
+        "tags": ["R3", "B3", "G3", "Y3"],
+        "name": "3",
+        "icon": "textToIcon:3",
+        "probability": "8"
+    },
+    {
+        "code": "4",
+        "colors": "uno",
+        "group": ["base"],
+        "base": 1,
+        "tags": ["R4", "B4", "G4", "Y4"],
+        "name": "4",
+        "icon": "textToIcon:4",
+        "probability": "8"
+    },
+    {
+        "code": "5",
+        "colors": "uno",
+        "group": ["base"],
+        "base": 1,
+        "tags": ["R5", "B5", "G5", "Y5"],
+        "name": "5",
+        "icon": "textToIcon:5",
+        "probability": "8"
+    },
+    {
+        "code": "6",
+        "colors": "uno",
+        "group": ["base"],
+        "base": 1,
+        "tags": ["R6", "B6", "G6", "Y6"],
+        "name": "6",
+        "icon": "textToIcon:6",
+        "probability": "8"
+    },
+    {
+        "code": "7",
+        "colors": "uno",
+        "group": ["base"],
+        "base": 1,
+        "tags": ["R7", "B7", "G7", "Y7"],
+        "name": "7",
+        "icon": "textToIcon:7",
+        "probability": "8"
+    },
+    {
+        "code": "8",
+        "colors": "uno",
+        "group": ["base"],
+        "base": 1,
+        "tags": ["R8", "B8", "G8", "Y8"],
+        "name": "8",
+        "icon": "textToIcon:8",
+        "probability": "8"
+    },
+    {
+        "code": "9",
+        "colors": "uno",
+        "group": ["base"],
+        "base": 1,
+        "tags": ["R9", "B9", "G9", "Y9"],
+        "name": "9",
+        "icon": "textToIcon:9",
+        "probability": "8"
+    },
+    {
+        "code": "+1",
+        "colors": "uno",
+        "tags": ["R+1", "B+1", "G+1", "Y+1"],
+        "action": {
+            "type": "pickUp",
+            "value": 1
+        },
+        "name": "+1",
+        "icon": "textToIcon:+1",
+        "probability": "8"
+    },
+    {
+        "code": "+2",
+        "colors": "uno",
+        "group": ["base"],
+        "base": 1,
+        "tags": ["R+2", "B+2", "G+2", "Y+2"],
+        "action": {
+            "type": "pickUp",
+            "value": 4
+        },
+        "name": "+2",
+        "icon": "textToIcon:+2",
+        "probability": "8"
+    },
+    {
+        "code": "+4",
+        "colors": "wild",
+        "group": ["base"],
+        "base": 1,
+        "tags": ["w+4"],
+        "action": {
+            "type": "pickUp",
+            "value": 1,
+            "wild": 1
+        },
+        "name": "Wild +4",
+        "icon": "textToIcon:+4",
+        "probability": "4"
+    },
+    {
+        "code": "w",
+        "colors": "wild",
+        "group": ["base"],
+        "base": 1,
+        "tags": ["w"],
+        "action": {
+            "type": "wild",
+            "wild": 1
+        },
+        "name": "Wild",
+        "icon": "palette",
+        "probability": "4"
+    },
+    {
+        "code": "s",
+        "colors": "uno",
+        "group": ["base"],
+        "base": 1,
+        "tags": ["Rs", "Bs", "Gs", "Ys"],
+        "action": {
+            "type": "skip",
+            "value": 1
+        },
+        "name": "Skip",
+        "icon": "forward",
+        "probability": "8"
+    },
+    {
+        "code": "r",
+        "colors": "uno",
+        "group": ["base"],
+        "base": 1,
+        "tags": ["Rr", "Br", "Gr", "Yr"],
+        "action": {
+            "type": "reverse"
+        },
+        "name": "Reverse",
+        "icon": "arrow-rotate-left",
+        "probability": "8"
+    }
+]
